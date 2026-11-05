@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Donate - Al-Noor Madrasa & Islamic Complex</title>
+  <meta name="description" content="Support Al-Noor Madrasa & Islamic Complex with your generous donation.">
+  <link rel="icon" type="image/svg+xml" href="assets/img/icons/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/style.css?v=2">
+</head>
+<body>
+
+<div class="preloader"><div class="preloader-inner"><div class="logo-text">Al-Noor</div><div class="loading-text"><span class="letter">L</span><span class="letter">o</span><span class="letter">a</span><span class="letter">d</span><span class="letter">i</span><span class="letter">n</span><span class="letter">g</span><span class="letter">.</span><span class="letter">.</span><span class="letter">.</span></div></div></div>
+<div class="menu-overlay"></div>
+<div class="th-menu-wrapper"><div class="th-menu-area"><button class="th-menu-toggle-close"><i class="fas fa-times"></i></button><div class="mobile-logo"><a href="index.html" style="display:flex;align-items:center;gap:10px;"><img src="assets/img/icons/favicon.svg" alt="Logo" style="width:36px;"><span style="font-family:var(--title-font);font-size:18px;font-weight:700;color:var(--theme-color);">Al-Noor</span></a></div><nav class="th-mobile-menu"><ul><li><a href="index.html">Home</a></li><li><a href="about-us.html">About Us</a></li><li><a href="hafizia-madrasha.html">Hafizia Madrasha</a></li><li><a href="committee.html">Committee</a></li><li><a href="notice.html">Notice</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="contact-us.html">Contact Us</a></li></ul></nav></div></div>
+
+<header class="th-header">
+  <div class="header-top"><div class="container"><div style="display:flex;justify-content:space-between;align-items:center;"><div class="header-links" style="display:flex;gap:20px;"><li><i class="fas fa-phone"></i><a href="tel:+8801712345678">+880 1712-345678</a></li></div><div style="display:flex;align-items:center;gap:12px;"><div class="lang-toggle"><a href="#" class="active">Eng</a><a href="#">বাং</a></div><a href="donate.html" style="padding:4px 14px;background:var(--theme-color2);color:var(--title-color);font-size:13px;font-weight:600;border-radius:4px;">Donate Now</a></div></div></div></div>
+  <div class="sticky-wrapper"><div class="menu-area"><div class="container" style="display:flex;align-items:center;justify-content:space-between;"><div class="header-logo"><a href="index.html"><img src="assets/img/icons/favicon.svg" alt="Logo" class="logo-icon" style="width:44px;height:44px;"><span class="logo-text">Al-Noor<small>Madrasa & Islamic Complex</small></span></a></div><nav class="main-menu"><ul><li><a href="index.html">Home</a></li><li><a href="about-us.html">About Us</a></li><li><a href="hafizia-madrasha.html">Hafizia Madrasha</a></li><li><a href="committee.html">Committee</a></li><li><a href="notice.html">Notice</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="contact-us.html">Contact Us</a></li></ul></nav><button type="button" class="th-menu-toggle"><i class="fas fa-bars"></i></button></div></div></div>
+</header>
+
+<!-- Donate Section (no breadcrumb, like reference) -->
+<section class="donate-section" style="min-height:80vh;">
+  <div class="container">
+    <div class="donate-grid">
+      <div class="donate-info" data-ani="slideinleft">
+        <span class="sub-title">Donate Now</span>
+        <h2>"Charity extinguishes sin as water extinguishes fire."</h2>
+        <blockquote>
+          The Prophet Muhammad (S.A.W.) said: "Charity extinguishes sin as water extinguishes fire."
+          <cite>— Hadith, Tirmidhi 2616</cite>
+        </blockquote>
+        <p style="margin-top:20px;opacity:0.85;font-size:15px;">Your generous contribution helps us provide free education, meals, and accommodation to students. Every donation, no matter how small, makes a meaningful difference.</p>
+      </div>
+      <div class="donate-form-card" data-ani="slideinright">
+        <div class="donate-form-inner">
+          <h3>Make a Donation</h3>
+          <form class="donate-form">
+            <label style="font-size:14px;font-weight:600;margin-bottom:8px;display:block;">Select Amount</label>
+            <div class="amount-presets">
+              <button type="button" class="amount-btn" data-amount="50">৳50</button>
+              <button type="button" class="amount-btn active" data-amount="100">৳100</button>
+              <button type="button" class="amount-btn" data-amount="200">৳200</button>
+              <button type="button" class="amount-btn" data-amount="500">৳500</button>
+              <button type="button" class="amount-btn" data-amount="1000">৳1000</button>
+              <button type="button" class="amount-btn" data-amount="0">Custom</button>
+            </div>
+            <div class="custom-amount">
+              <span class="currency-symbol">৳</span>
+              <input type="number" name="amount" value="100" placeholder="Enter amount" min="1">
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="donor_name">Full Name *</label>
+                <input type="text" id="donor_name" name="donor_name" placeholder="Your full name" required>
+              </div>
+              <div class="form-group">
+                <label for="donor_email">Email *</label>
+                <input type="email" id="donor_email" name="donor_email" placeholder="Your email" required>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="donor_phone">Phone *</label>
+                <input type="tel" id="donor_phone" name="donor_phone" placeholder="Your phone number" required>
+              </div>
+              <div class="form-group">
+                <label for="donor_postcode">Post Code</label>
+                <input type="text" id="donor_postcode" name="donor_postcode" placeholder="Your post code">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="donor_address">Address</label>
+              <textarea id="donor_address" name="donor_address" placeholder="Your address" style="min-height:80px;"></textarea>
+            </div>
+
+            <label style="font-size:14px;font-weight:600;margin-bottom:8px;display:block;">Payment Method</label>
+            <div class="payment-methods">
+              <div class="payment-method active">
+                <i class="fas fa-mobile-alt"></i>
+                <span>bKash</span>
+              </div>
+              <div class="payment-method">
+                <i class="fas fa-mobile-alt"></i>
+                <span>Nagad</span>
+              </div>
+              <div class="payment-method">
+                <i class="fas fa-university"></i>
+                <span>Bank Transfer</span>
+              </div>
+            </div>
+
+            <div class="donate-terms">
+              <input type="checkbox" id="terms" name="terms">
+              <label for="terms">I agree to the <a href="#">Terms and Conditions</a>, <a href="#">Privacy Policy</a>, and <a href="#">Return & Refund Policy</a>.</label>
+            </div>
+
+            <div class="donate-submit">
+              <button type="submit" class="th-btn"><span class="btn-text" data-front="Donate Now" data-back="Donate Now"></span></button>
+            </div>
+          </form>
+        </div>
+        <div class="donate-success">
+          <i class="fas fa-check-circle"></i>
+          <h3>Thank You for Your Generosity!</h3>
+          <p>Your donation has been received successfully. May Allah reward you abundantly. This is a demo — no real transaction was processed.</p>
+          <a href="index.html" class="th-btn" style="margin-top:20px;"><span class="btn-text" data-front="Return Home" data-back="Return Home"></span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer-wrapper">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-widget footer-about"><div class="footer-logo"><img src="assets/img/icons/favicon.svg" alt="Logo" class="logo-icon"><span>Al-Noor</span></div><p>Al-Noor Madrasa & Islamic Complex is dedicated to Islamic education, community service, and spiritual development in Sarishabari, Mymensingh.</p><div class="footer-contact-item"><i class="fas fa-phone"></i><a href="tel:+8801712345678" style="color:inherit;">+880 1712-345678</a></div><div class="footer-contact-item"><i class="fas fa-envelope"></i><span style="color:inherit;">info@alnoor.example</span></div><div class="footer-contact-item"><i class="fas fa-map-marker-alt"></i><span>Al-Noor Road, Sarishabari, Mymensingh</span></div></div>
+      <div class="footer-widget"><h3>Quick Links</h3><div class="footer-links"><a href="index.html">Home</a><a href="about-us.html">About Us</a><a href="hafizia-madrasha.html">Hafizia Madrasha</a><a href="committee.html">Committee</a><a href="notice.html">Notice</a></div></div>
+      <div class="footer-widget"><h3>Useful Links</h3><div class="footer-links"><a href="gallery.html">Gallery</a><a href="contact-us.html">Contact Us</a><a href="donate.html">Donate Now</a><a href="#">Prayer Times</a><a href="#">Events</a></div></div>
+      <div class="footer-widget"><h3>Resources</h3><div class="footer-links"><a href="#">Islamic Calendar</a><a href="#">Quran Online</a><a href="#">Hadith Collection</a><a href="#">Daily Duas</a><a href="#">Qibla Direction</a></div></div>
+    </div>
+    <div class="footer-bottom"><p>&copy; 2025 Al-Noor Madrasa & Islamic Complex. All Rights Reserved.</p></div>
+  </div>
+</footer>
+<div class="scroll-top-btn"><i class="fas fa-arrow-up"></i><svg class="progress-ring" viewBox="0 0 54 54"><circle cx="27" cy="27" r="24"></circle></svg></div>
+<script src="assets/js/main.js?v=2"></script>
+</body>
+</html>
